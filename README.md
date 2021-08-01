@@ -7,9 +7,10 @@ There have been recreations in Python, R, Highcharts of plots in Cole Nussbaumer
 I will not reproduce those charts 100% the same as the original one, eg. tracking exactly the same color, layout, fonts, etc. Instead, I will try to capture the author’s thinking and adjust them based on my ideas and gives some tricky usage of Tableau.
 
 # Table of Contents
-1.  [Figure 3.13](#fig3.13)
+1. [Figure 3.13](#fig3.13)
 2. [Figure 3.15](#fig3.15)
 3. [Figure 3.19](#fig3.19)
+4. [Figure 5.2](#fig5.2)
 # Figures & Analysis
 
 ## Figure 3.13<a name="fig3.13"></a>
@@ -102,4 +103,27 @@ I will not reproduce those charts 100% the same as the original one, eg. trackin
 ### Tricks
 1. To make room for the text in the dashboard, we can use another text object as the blank. 
 
+## Figure 5.2<a name="fig5.2"></a>
+
+<p align="center">
+<img src="./images/5.2_ori.png" width="55%" >
+</p>
+
+### Defects
+1. Bar charts are not appropriate for time series.
+2. Legend colors’ change with time is confusing.
+3. Unnecessary bold “ PEW RESEARCH CENTER”.
+4. Better focus on one education type. 
+
+### Improvements
+
+<p align="center">
+<img src="./images/5.2_swd.png" width="55%" >
+</p>
+<p align="center">
+<img src="./images/5.2_my.png" width="55%" >
+</p>
+
+### Tricks
+1. The title is added in the dashboard using the Text Objects.
 
