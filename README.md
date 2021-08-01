@@ -7,7 +7,7 @@ I will not reproduce those charts 100% the same as the original one, eg. trackin
 ### Figures & Analysis
 #### Figure 3.13
 <p align="center">
-<img src="./images/3.13_ori.png" width="80%" >
+<img src="./images/3.13_ori.png" width="50%" >
 </p>
 ##### Defects
 1. Bad alignment: centering is messy for words
@@ -16,19 +16,18 @@ I will not reproduce those charts 100% the same as the original one, eg. trackin
 
 ##### Improvements
 <p align="center">
-<img src="./images/3.13_swd.png" width="80%" >
+<img src="./images/3.13_swd.png" width="50%" >
 </p>
 <p align="center">
-<img src="./images/3.13_my.png" width="80%" >
+<img src="./images/3.13_my.png" width="50%" >
 </p>
-
 ##### My modifications
 1. Change the language in the description and make the bold words less.
 2. Change the color of the selected bars so that people can first notice these instead of texts that are also black and bold.
-3. 
+
 ##### Tricks
 1. To adjust the space between the title and the description in Tableau, we can insert one row in the between, select its size to adjust the space, and paint it white.
 2. The texts in the right column are added in the dashboard.
-3. Separating “Survey shows that ” and the following words makes it easier to read.
+3. Separating “Survey shows that” and the following words makes it easier to read.
 4. If there are not any explanations in the right columns, we can make the headers of the chosen 3 blue to emphasize them. However, it is not easy to do so in Tableau.
 
