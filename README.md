@@ -41,3 +41,32 @@ I will not reproduce those charts 100% the same as the original one, eg. trackin
 3. Separating “Survey shows that” and the following words makes it easier to read.
 4. If there are not any explanations in the right columns, we can make the headers of the chosen 3 blue to emphasize them. However, it is not easy to do so in Tableau.
 
+## Figure 3.15
+
+<p align="center">
+<img src="./images/3.15_ori.png" width="65%" >
+</p>
+#### Defects
+
+1. Various colors and shapes are confusing.
+2. The index of our services is not emphasized. 
+3. Negative data are not necessary, which can be shifted to positive.
+
+### Improvements
+
+<p align="center">
+<img src="./images/3.15_swd.png" width="65%" >
+</p>
+<p align="center">
+<img src="./images/3.15_my.png" width="65%" >
+</p>
+
+#### My modifications
+1. I don’t know how to adjust the distance between bars for different headers, so I just use the divided line.
+2. Strangely, the legend is under the title. I put the legend aside.
+
+#### Tricks
+
+1. In Tableau, the rankings are labeled to every bar. To only label our service, we need to first choose “Never Show” in right-click -> Mark Label, then choose “Always Show” one by one.
+
+
