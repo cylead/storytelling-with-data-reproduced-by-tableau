@@ -79,6 +79,7 @@ I will not reproduce those charts 100% the same as the original one, eg. trackin
 <p align="center">
 <img src="./images/3.19_ori.png" width="65%" >
 </p>
+
 ### Defects
 1. Unnecessary gridlines, out border
 2. Extra digits after decimal on the scale
