@@ -9,6 +9,7 @@ I will not reproduce those charts 100% the same as the original one, eg. trackin
 # Table of Contents
 1.  [Figure 3.13](#fig3.13)
 2. [Figure 3.15](#fig3.15)
+3. [Figure 3.19](#fig3.19)
 # Figures & Analysis
 
 ## Figure 3.13<a name="fig3.13"></a>
@@ -72,5 +73,32 @@ I will not reproduce those charts 100% the same as the original one, eg. trackin
 ### Tricks
 
 1. In Tableau, the rankings are labeled to every bar. To only label our service, we need to first choose “Never Show” in right-click -> Mark Label, then choose “Always Show” one by one.
+
+## Figure 3.19<a name="fig3.19"></a>
+
+<p align="center">
+<img src="./images/3.19_ori.png" width="65%" >
+</p>
+### Defects
+1. Unnecessary gridlines, out border
+2. Extra digits after decimal on the scale
+3. Unnecessary data point marker types
+4. Inclined date headers
+5. It does not show that at a certain time things changed, the processed tickets are much less than they received.
+
+### Improvements
+
+<p align="center">
+<img src="./images/3.19_swd.png" width="65%" >
+</p>
+<p align="center">
+<img src="./images/3.19_my.png" width="65%" >
+</p>
+
+### My modifications
+ 1. I add the title which shows that the plot is about ticket volume.
+
+### Tricks
+1. To make room for the text in the dashboard, we can use another text object as the blank. 
 
 

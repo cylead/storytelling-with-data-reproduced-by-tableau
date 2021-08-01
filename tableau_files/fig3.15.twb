@@ -1,0 +1,1484 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0320.1853                               -->
+<workbook original-version='18.1' source-build='2021.1.0 (20211.21.0320.1853)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (3.15)' inline='true' name='federated.1b4j97504ox6291360qw50zor8d3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='3.15' name='excel-direct.0alhfxb0o5xf0a1bblvpl0fr2jkv'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/job/project/storytelling-with-data-reproduced-by-tableau/data/reproduced/3.15.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0alhfxb0o5xf0a1bblvpl0fr2jkv' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:H6:no:A1:H6:0' header='yes' outcome='6'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='Our business' ordinal='1' />
+            <column datatype='real' name='Competitor A' ordinal='2' />
+            <column datatype='real' name='Competitor B' ordinal='3' />
+            <column datatype='real' name='Competitor C' ordinal='4' />
+            <column datatype='real' name='Competitor D' ordinal='5' />
+            <column datatype='real' name='Competitor E' ordinal='6' />
+            <column datatype='string' name='Rank' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0alhfxb0o5xf0a1bblvpl0fr2jkv' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:H6:no:A1:H6:0' header='yes' outcome='6'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='Our business' ordinal='1' />
+            <column datatype='real' name='Competitor A' ordinal='2' />
+            <column datatype='real' name='Competitor B' ordinal='3' />
+            <column datatype='real' name='Competitor C' ordinal='4' />
+            <column datatype='real' name='Competitor D' ordinal='5' />
+            <column datatype='real' name='Competitor E' ordinal='6' />
+            <column datatype='string' name='Rank' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H6:no:A1:H6:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E0044DC6596C451B90A8BEA43273E698]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Our business</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Our business]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Our business</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E0044DC6596C451B90A8BEA43273E698]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Competitor A</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Competitor A]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Competitor A</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E0044DC6596C451B90A8BEA43273E698]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Competitor B</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Competitor B]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Competitor B</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E0044DC6596C451B90A8BEA43273E698]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Competitor C</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Competitor C]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Competitor C</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E0044DC6596C451B90A8BEA43273E698]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Competitor D</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Competitor D]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Competitor D</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E0044DC6596C451B90A8BEA43273E698]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Competitor E</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Competitor E]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Competitor E</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E0044DC6596C451B90A8BEA43273E698]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Rank]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Rank</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E0044DC6596C451B90A8BEA43273E698]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Competitor A]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Competitor B]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Competitor C]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Competitor D]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Competitor E]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Our business]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_E0044DC6596C451B90A8BEA43273E698]' role='measure' type='quantitative' />
+      <column-instance column='[Competitor A]' derivation='Sum' name='[sum:Competitor A:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Competitor B]' derivation='Sum' name='[sum:Competitor B:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Competitor C]' derivation='Sum' name='[sum:Competitor C:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Competitor D]' derivation='Sum' name='[sum:Competitor D:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Competitor E]' derivation='Sum' name='[sum:Competitor E:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Our business]' derivation='Sum' name='[sum:Our business:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Our business:qk]&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor A:qk]&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor B:qk]&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor C:qk]&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor D:qk]&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor E:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_E0044DC6596C451B90A8BEA43273E698'>
+            <properties context=''>
+              <relation connection='excel-direct.0alhfxb0o5xf0a1bblvpl0fr2jkv' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:H6:no:A1:H6:0' header='yes' outcome='6'>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='real' name='Our business' ordinal='1' />
+                  <column datatype='real' name='Competitor A' ordinal='2' />
+                  <column datatype='real' name='Competitor B' ordinal='3' />
+                  <column datatype='real' name='Competitor C' ordinal='4' />
+                  <column datatype='real' name='Competitor D' ordinal='5' />
+                  <column datatype='real' name='Competitor E' ordinal='6' />
+                  <column datatype='string' name='Rank' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#b4b4b4'>Performance overview</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (3.15)' name='federated.1b4j97504ox6291360qw50zor8d3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1b4j97504ox6291360qw50zor8d3'>
+            <column datatype='real' name='[Competitor A]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Competitor B]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Competitor C]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Competitor D]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Competitor E]' role='measure' type='quantitative' />
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Our business]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Rank]' role='dimension' type='nominal' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rank]' derivation='None' name='[none:Rank:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Competitor A]' derivation='Sum' name='[sum:Competitor A:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Competitor B]' derivation='Sum' name='[sum:Competitor B:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Competitor C]' derivation='Sum' name='[sum:Competitor C:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Competitor D]' derivation='Sum' name='[sum:Competitor D:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Competitor E]' derivation='Sum' name='[sum:Competitor E:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Our business]' derivation='Sum' name='[sum:Our business:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Our business:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor A:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor B:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor C:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor D:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor E:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Our business:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor A:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor B:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor C:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor D:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor E:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <manual-sort column='[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Price&quot;</bucket>
+              <bucket>&quot;Convenience&quot;</bucket>
+              <bucket>&quot;Relationship&quot;</bucket>
+              <bucket>&quot;Service&quot;</bucket>
+              <bucket>&quot;Selection&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]' scope='cols' value='Weighted performance index &amp; Rank' />
+            <encoding attr='space' class='0' field='[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]' field-type='quantitative' major-origin='0.0' major-show='false' major-spacing='1.0' scope='cols' type='space' />
+            <format attr='height' field='[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]' value='33' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]' value='18' />
+            <format attr='text-align' value='center' />
+            <format attr='text-align' field='[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]' value='right' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]' value='false' />
+            <format attr='text-align' field='[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]' value='right' />
+            <format attr='vertical-align' field='[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]' value='center' />
+            <format attr='color' field='[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]' value='#b4b4b4' />
+            <format attr='text-align' field='[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]' value='right' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='1' />
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='div-level' scope='rows' value='1' />
+            <format attr='stroke-color' scope='rows' value='#b4b4b4' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='stroke-size' scope='rows' value='1' />
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]' value='Legend'>
+              <formatted-text>
+                <run fontcolor='#b4b4b4'>Legend</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]' />
+              <text column='[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='color' value='#4e79a7' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5932043790817261' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='650' />
+                <format attr='maxwidth' value='650' />
+                <format attr='minheight' value='600' />
+                <format attr='maxheight' value='600' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk] / [federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names])</rows>
+        <cols>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Price&quot;</value>
+                <value>&quot;1 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor A:qk]&quot;</value>
+                <value>1.5900000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Price&quot;</value>
+                <value>&quot;1 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor B:qk]&quot;</value>
+                <value>0.26000000000000012</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Price&quot;</value>
+                <value>&quot;1 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor C:qk]&quot;</value>
+                <value>1.02</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Price&quot;</value>
+                <value>&quot;1 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor D:qk]&quot;</value>
+                <value>1.6000000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Convenience&quot;</value>
+                <value>&quot;2 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor A:qk]&quot;</value>
+                <value>2.1800000000000002</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Convenience&quot;</value>
+                <value>&quot;2 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Our business:qk]&quot;</value>
+                <value>1.7000000000000002</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Convenience&quot;</value>
+                <value>&quot;2 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor B:qk]&quot;</value>
+                <value>0.72000000000000008</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='7' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Convenience&quot;</value>
+                <value>&quot;2 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor C:qk]&quot;</value>
+                <value>0.82000000000000006</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='8' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Convenience&quot;</value>
+                <value>&quot;2 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor D:qk]&quot;</value>
+                <value>1.6400000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='9' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Relationship&quot;</value>
+                <value>&quot;4 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor A:qk]&quot;</value>
+                <value>1.98</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='10' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Relationship&quot;</value>
+                <value>&quot;4 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Our business:qk]&quot;</value>
+                <value>0.70000000000000007</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='11' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Relationship&quot;</value>
+                <value>&quot;4 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor B:qk]&quot;</value>
+                <value>0.62000000000000011</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='12' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Relationship&quot;</value>
+                <value>&quot;4 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor C:qk]&quot;</value>
+                <value>0.67000000000000015</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='13' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Relationship&quot;</value>
+                <value>&quot;4 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor D:qk]&quot;</value>
+                <value>1.1000000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='14' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Relationship&quot;</value>
+                <value>&quot;4 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor E:qk]&quot;</value>
+                <value>1.2000000000000002</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='15' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Service&quot;</value>
+                <value>&quot;6 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor A:qk]&quot;</value>
+                <value>0.50000000000000011</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='16' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Service&quot;</value>
+                <value>&quot;6 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor B:qk]&quot;</value>
+                <value>1.23</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='17' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Service&quot;</value>
+                <value>&quot;6 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor C:qk]&quot;</value>
+                <value>0.69000000000000006</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='18' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Price&quot;</value>
+                <value>&quot;1 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor E:qk]&quot;</value>
+                <value>0.76000000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='19' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Price&quot;</value>
+                <value>&quot;1 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Our business:qk]&quot;</value>
+                <value>1.8100000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='20' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Service&quot;</value>
+                <value>&quot;6 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor E:qk]&quot;</value>
+                <value>2.0600000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='21' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Service&quot;</value>
+                <value>&quot;6 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor D:qk]&quot;</value>
+                <value>1.1100000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='22' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Selection&quot;</value>
+                <value>&quot;6 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor E:qk]&quot;</value>
+                <value>2.4000000000000004</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='23' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Selection&quot;</value>
+                <value>&quot;6 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor D:qk]&quot;</value>
+                <value>1.6000000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='24' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Selection&quot;</value>
+                <value>&quot;6 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor B:qk]&quot;</value>
+                <value>0.87000000000000011</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='25' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Selection&quot;</value>
+                <value>&quot;6 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor C:qk]&quot;</value>
+                <value>0.43000000000000005</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='26' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                  <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Service&quot;</value>
+                <value>&quot;6 of 6&quot;</value>
+                <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Our business:qk]&quot;</value>
+                <value>0.31000000000000005</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{54F59C62-D921-4770-B032-92C4CCB57280}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='7' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='5' w='98400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Sheet 1' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='19125' id='8' name='Sheet 1' pane-specification-id='0' param='[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]' w='14000' x='76900' y='4000' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='10' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='9' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Sheet 1' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='19125' id='8' name='Sheet 1' pane-specification-id='0' param='[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]' w='14000' x='76900' y='4000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{478A8308-ECF4-4FE0-8168-D578CA8720AA}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='horizontal'>
+              <node-reference>
+                <axis>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</axis>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+            <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+            <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{876E6631-A24E-4C0C-86EE-3823C5B3BBF2}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <selection-collection>
+            <tuple-selection>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor>
+                    <x-fields>
+                      <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                    </x-fields>
+                    <y-fields>
+                      <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                      <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                    </y-fields>
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:F1:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[none:Rank:nk]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]</field>
+                    <field>[federated.1b4j97504ox6291360qw50zor8d3].[Multiple Values]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>&quot;Relationship&quot;</value>
+                  <value>&quot;4 of 6&quot;</value>
+                  <value>&quot;[federated.1b4j97504ox6291360qw50zor8d3].[sum:Competitor A:qk]&quot;</value>
+                  <value>1.98</value>
+                </tuple>
+              </tuple-reference>
+            </tuple-selection>
+          </selection-collection>
+          <highlight field='[federated.1b4j97504ox6291360qw50zor8d3].[:Measure Names]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{F87364DD-D32F-45FA-BE82-3E5E8DF68B1A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
