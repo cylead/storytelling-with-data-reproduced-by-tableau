@@ -356,9 +356,9 @@
       <size maxheight='500' maxwidth='700' minheight='500' minwidth='700' sizing-mode='fixed' />
       <zones>
         <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
-          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='90400' id='7' param='horz' w='79156' x='9701' y='8000'>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='90400' id='5' w='79156' x='9701' y='8000'>
-              <zone h='90400' id='3' name='Sheet 4' w='79156' x='9701' y='8000'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='90400' id='7' param='horz' w='39578' x='9701' y='8000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='90400' id='5' w='39578' x='9701' y='8000'>
+              <zone h='90400' id='3' name='Sheet 4' w='39578' x='9701' y='8000'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -369,8 +369,16 @@
             </zone>
           </zone>
           <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='90400' id='11' param='horz' w='8558' x='1143' y='8000' />
-          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='6400' id='13' param='vert' w='87714' x='1143' y='1600' />
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='6400' id='13' param='vert' w='48136' x='1143' y='1600' />
           <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='96800' id='15' param='horz' w='10000' x='88857' y='1600' />
+          <zone _.fcp.SetMembershipControl.false...type='empty' _.fcp.SetMembershipControl.true...type-v2='empty' h='96800' id='16' w='39578' x='49279' y='1600'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
           <zone-style>
             <format attr='border-color' value='#000000' />
             <format attr='border-style' value='none' />
@@ -378,7 +386,7 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='16400' id='8' w='21714' x='42286' y='53600'>
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='16400' id='8' w='21714' x='42286' y='53800'>
           <formatted-text>
             <run bold='true' fontcolor='#4e79a7' fontsize='16'>30%</run>
           </formatted-text>
@@ -476,7 +484,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='16' />
       <simple-id uuid='{1FCF94AC-50EB-433B-AF6B-6C80823067B6}' />
     </window>
   </windows>
