@@ -7,10 +7,11 @@ There have been recreations in Python, R, Highcharts of plots in Cole Nussbaumer
 I will not reproduce those charts 100% the same as the original one, eg. tracking exactly the same color, layout, fonts, etc. Instead, I will try to capture the author’s thinking and adjust them based on my ideas and gives some tricky usage of Tableau.
 
 # Table of Contents
-1. [Figure 3.13](#fig3.13)
-2. [Figure 3.15](#fig3.15)
-3. [Figure 3.19](#fig3.19)
-4. [Figure 5.2](#fig5.2)
+*. [Figure 3.13](#fig3.13)
+*. [Figure 3.15](#fig3.15)
+*. [Figure 3.19](#fig3.19)
+*. [Figure 5.2](#fig5.2)
+*. [Figure 5.12](#fig5.12)
 # Figures & Analysis
 
 ## Figure 3.13<a name="fig3.13"></a>
@@ -36,15 +37,15 @@ I will not reproduce those charts 100% the same as the original one, eg. trackin
 
 ### My modifications
 
-1. Change the language in the description and make the bold words less.
-2. Change the color of the selected bars so that people can first notice these instead of texts that are also black and bold.
+*. Change the language in the description and make the bold words less.
+*. Change the color of the selected bars so that people can first notice these instead of texts that are also black and bold.
 
 ### Tricks
 
-1. To adjust the space between the title and the description in Tableau, we can insert one row in the between, select its size to adjust the space, and paint it white.
-2. The texts in the right column are added in the dashboard.
-3. Separating “Survey shows that” and the following words makes it easier to read.
-4. If there are not any explanations in the right columns, we can make the headers of the chosen 3 blue to emphasize them. However, it is not easy to do so in Tableau.
+* To adjust the space between the title and the description in Tableau, we can insert one row in the between, select its size to adjust the space, and paint it white.
+*. The texts in the right column are added in the dashboard.
+*. Separating “Survey shows that” and the following words makes it easier to read.
+*. If there are not any explanations in the right columns, we can make the headers of the chosen 3 blue to emphasize them. However, it is not easy to do so in Tableau.
 
 ## Figure 3.15<a name="fig3.15"></a>
 
@@ -68,12 +69,12 @@ I will not reproduce those charts 100% the same as the original one, eg. trackin
 </p>
 
 ### My modifications
-1. I don’t know how to adjust the distance between bars for different headers, so I just use the divided line.
-2. Strangely, the legend is under the title. I put the legend aside.
+*. I don’t know how to adjust the distance between bars for different headers, so I just use the divided line.
+*. Strangely, the legend is under the title. I put the legend aside.
 
 ### Tricks
 
-1. In Tableau, the rankings are labeled to every bar. To only label our service, we need to first choose “Never Show” in right-click -> Mark Label, then choose “Always Show” one by one.
+*. In Tableau, the rankings are labeled to every bar. To only label our service, we need to first choose “Never Show” in right-click -> Mark Label, then choose “Always Show” one by one.
 
 ## Figure 3.19<a name="fig3.19"></a>
 
@@ -98,10 +99,10 @@ I will not reproduce those charts 100% the same as the original one, eg. trackin
 </p>
 
 ### My modifications
- 1. I add the title which shows that the plot is about ticket volume.
+*. I add the title which shows that the plot is about ticket volume.
 
 ### Tricks
-1. To make room for the text in the dashboard, we can use another text object as the blank. 
+*. To make room for the text in the dashboard, we can use another text object as the blank. 
 
 ## Figure 5.2<a name="fig5.2"></a>
 
@@ -124,6 +125,33 @@ I will not reproduce those charts 100% the same as the original one, eg. trackin
 <img src="./images/5.2_my.png" width="55%" >
 </p>
 
+Note: Another improved chart is Figure 5.10. It requires extra info so I don't put it here. 
+
 ### Tricks
-1. The title is added in the dashboard using the Text Objects.
+*. The title is added in the dashboard using the Text Objects.
+
+## Figure 5.12<a name="fig5.12"></a>
+
+<p align="center">
+<img src="./images/5.12_ori.png" width="55%" >
+</p>
+
+### Defects
+1. Various colors make people confused.
+2. The left headers are not aligned.
+3. The dotted line in the middle is a bit strange and unnecessary.
+
+### Improvements
+
+<p align="center">
+<img src="./images/5.12_swd.png" width="55%" >
+</p>
+<p align="center">
+<img src="./images/5.12_my.png" width="55%" >
+</p>
+
+### Tricks
+*. The colors in Tableau’s stacked bar chart are next to each other. To make the distance between them, I insert blank percentage (0.5%) between the segments data in the tables.
+
+
 
