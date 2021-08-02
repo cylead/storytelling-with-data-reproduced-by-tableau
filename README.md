@@ -6,6 +6,16 @@ There have been recreations in Python, R, Highcharts of plots in Cole Nussbaumer
 
 I will not reproduce those charts 100% the same as the original one, eg. tracking exactly the same color, layout, fonts, etc. Instead, I will try to capture the author’s thinking and adjust them based on my ideas and gives some tricky usage of Tableau.
 
+# Main problems of visualizations
+
+The role of visualization is to simplify the data and convey insights to the audience. So anything below that may hinder achieving this goal will become a defect:
+1. Bad alignment.
+2. Various colors.
+3. Unnecessary gridlines, bolding, font types, font sizes, inclined characters, character shapes, etc.
+4. Not enough focus on the data you are interested in.
+5. Inappropriate chart type.
+
+
 # Table of Contents
 *. [Figure 3.13](#fig3.13)
 *. [Figure 3.15](#fig3.15)
