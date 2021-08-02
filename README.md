@@ -15,7 +15,7 @@ The role of visualization is to simplify the data and convey insights to the aud
 4. Not enough focus on the data you are interested in.
 5. Inappropriate chart type.
 
-### Table of Contents
+## Table of Contents
 
 * [Figure 3.13](#fig3.13)
 * [Figure 3.15](#fig3.15)
@@ -26,6 +26,8 @@ The role of visualization is to simplify the data and convey insights to the aud
 ## Figures & Analysis
 
 ### Figure 3.13<a name="fig3.13"></a>
+
+#### Bad plot
 
 <p align="center">
 <img src="./images/3.13_ori.png" width="65%" >
@@ -60,6 +62,8 @@ The role of visualization is to simplify the data and convey insights to the aud
 
 #### Figure 3.15<a name="fig3.15"></a>
 
+#### Bad plot
+
 <p align="center">
 <img src="./images/3.15_ori.png" width="65%" >
 </p>
@@ -89,6 +93,8 @@ The role of visualization is to simplify the data and convey insights to the aud
 
 ### Figure 3.19<a name="fig3.19"></a>
 
+#### Bad plot
+
 <p align="center">
 <img src="./images/3.19_ori.png" width="65%" >
 </p>
@@ -117,6 +123,8 @@ The role of visualization is to simplify the data and convey insights to the aud
 
 ### Figure 5.2<a name="fig5.2"></a>
 
+#### Bad plot
+
 <p align="center">
 <img src="./images/5.2_ori.png" width="55%" >
 </p>
@@ -142,6 +150,8 @@ Note: Another improved chart is Figure 5.10. It requires extra information so I 
 * The title is added in the dashboard using the Text Objects, whose place can be easily adjusted.
 
 ### Figure 5.12<a name="fig5.12"></a>
+
+#### Bad plot
 
 <p align="center">
 <img src="./images/5.12_ori.png" width="55%" >
