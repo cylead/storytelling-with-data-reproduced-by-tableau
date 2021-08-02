@@ -17,11 +17,11 @@ The role of visualization is to simplify the data and convey insights to the aud
 
 ### Table of Contents
 
-1. [Figure 3.13](#fig3.13)
-2. [Figure 3.15](#fig3.15)
-3. [Figure 3.19](#fig3.19)
-4. [Figure 5.2](#fig5.2)
-5. [Figure 5.12](#fig5.12)
+* [Figure 3.13](#fig3.13)
+* [Figure 3.15](#fig3.15)
+* [Figure 3.19](#fig3.19)
+* [Figure 5.2](#fig5.2)
+* [Figure 5.12](#fig5.12)
 
 ## Figures & Analysis
 
