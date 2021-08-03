@@ -76,13 +76,13 @@ Idea visual process: look at the plot -> notice the chosen bars -> read the desc
 
 #### Purpose analysis
 
-* The task is to compare our services with others in different aspects, so we should let the audience first recognize the metrics of our service and then compare with others. 
-* Idea visual process: look at the plot -> notice the metrics of our service-> judge whether they are good or bad -> other details
+* The task is to compare our business with others in different aspects, so we should let the audience first recognize the metrics of our business and then compare with others. 
+* Idea visual process: look at the plot -> notice the metrics of our business-> judge whether they are good or bad -> other details
 
 #### Defects
 
 1. Various colors and shapes are confusing.
-2. The index of our services is not emphasized. 
+2. The index of our business is not emphasized. 
 3. Negative data are not necessary, which can be shifted to positive.
 4. The scattering chart type is not the best choice for comparing numeric values in this case.
 
