@@ -102,7 +102,7 @@ Idea visual process: look at the plot -> notice the chosen bars -> read the desc
 
 ### Tricks
 
-* In Tableau, the rankings are labeled to every bar. To only label our service, we need to first choose “Never Show” in right-click -> Mark Label, then choose “Always Show” one by one.
+* In Tableau, the rankings are labeled to every bar. To only label our business, we need to first choose “Never Show” in right-click -> Mark Label, then choose “Always Show” one by one.
 
 ### Figure 3.19<a name="fig3.19"></a>
 
